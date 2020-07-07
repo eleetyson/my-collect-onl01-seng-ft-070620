@@ -3,5 +3,6 @@ def my_collect(old)
   new = []
   while i < old.length
     new << yield(old[i])
+    i += 1
   end
 end
