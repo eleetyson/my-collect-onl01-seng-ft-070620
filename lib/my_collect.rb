@@ -1,6 +1,7 @@
-def my_collect(collection)
+def my_collect(old)
   i = 0
-  while i < collection.length
-    
+  new = []
+  while i < old.length
+    new_co
   end
 end
