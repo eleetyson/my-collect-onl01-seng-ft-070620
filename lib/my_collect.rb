@@ -5,4 +5,5 @@ def my_collect(old)
     new << yield(old[i])
     i += 1
   end
+  
 end
